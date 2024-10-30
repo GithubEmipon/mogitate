@@ -1,0 +1,147 @@
+.products-form{
+    width: 1512px;
+    height: 900px;
+    padding: 0px 0px 30px 30px;
+    opacity: 0px;
+    display: left;
+}
+
+.products-form__heading {
+    width: 128px;
+    height: 48px;
+    font-family: Hiragino Kaku Gothic Pro;
+    font-size: 32px;
+    float: inline-start;
+    margin-top: auto;
+    margin-left: 30px;
+}
+
+
+.products-form__plus-btn {
+    padding: 13px 10px 13px 10px;
+    gap: 10px;
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0px;
+    background: #F5C800;
+    float:right;
+    }
+
+
+.products-form__inner-box {
+    margin: 32px auto 0;
+    width: 30%;
+    font-size: 16px;
+}
+
+.search-form {
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.search-form__keyword-input {
+    padding: 8px 12px;
+    /* placeholderが表示される最低限の幅を最小値とする */
+    min-width: 240px;
+    border: 1px solid #E3DED9;
+    background-color: #FBFBFB;
+    border-radius: 30px;
+    margin: 0px,0px,20px,0px;
+}
+
+/* フォーム */
+.products-form__group {
+    display: grid;
+    align-items: center;
+    margin-top: 32px;
+
+    grid-template-columns: 1fr 2fr;
+}
+
+
+.products-form__input {
+    background-color: #ffffff;
+    color: #E0DFDE;
+    padding: 11px 10px 11px 10px;
+    gap: 10px;
+    border-radius: 5px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+}
+
+
+.search-form__actions {
+    display: flex;
+
+    gap: 24px;
+}
+
+.search-form__search-btn {
+    width: 240px;
+    height: 44px;
+    padding: 10px 0px 0px 0px;
+    gap: 10px;
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0px;
+    background: #F5C800;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+}
+
+.p{
+    margin-top: 20px;
+}
+
+.products-form__select{
+    width: 240px;
+    height: 43px;
+    top: 21px;
+    left: 20px;
+    gap: 0px;
+    border-radius: 5px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px solid #E0DFDE;
+    margin-top: 20px;
+    color: #E0DFDE;
+}
+
+.products__item {
+    display: flex;
+    justify-content: space-around;
+}
+
+.products__card {
+    width: 30%;
+    height: auto;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.product__img img {
+    width: 100%;
+}
+
+.card__content {
+    padding: 15px 25px;
+    width: 374px;
+    height: 350px;
+    gap: 0px;
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0px;
+}
+
+.card__ttl {
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.card__cat {
+    padding: 5px 10px;
+    margin-bottom: 15px;
+    display: inline-block;
+    color: black;
+    font-size: 14px;
+}

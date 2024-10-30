@@ -1,0 +1,108 @@
+html,
+body {
+    height: 100%;
+}
+
+body,
+textarea,
+input {
+    color: #4b4b4b;
+}
+
+
+.register-form__inner {
+    margin: 32px auto 0;
+    width: 74%;
+    font-size: 16px;
+}
+
+/* フォーム */
+.register-form__group {
+    display: grid;
+    align-items: center;
+    margin-top: 32px;
+    grid-template-columns: 1fr 2fr;
+}
+
+.register-form__group:first-of-type {
+    margin-top: 0;
+}
+
+.register-form__group:last-of-type {
+    align-items: flex-start;
+}
+
+.register-form__required {
+    background: #FD0707;
+    color: #ffffff;
+    width: 34px;
+    height: 18px;
+    padding: 0px 5px 0px 5px;
+    gap: 10px;
+    opacity: 0px;
+    margin-left: 20px;
+}
+
+.register-form__input {
+    width: 760px;
+    height: 43px;
+    background-color: #ffffff;
+    color: #E0DFDE;
+    padding: 11px 10px 11px 10px;
+    gap: 10px;
+    border-radius: 5px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+}
+
+
+.register-form__seasons_id-inputs {
+    display: float;
+    justify-content: left;
+}
+
+.register-form__textarea {
+    width: 760px;
+    height: 144px;
+    background-color: #ffffff;
+    color: #E0DFDE;
+    padding: 11px 10px 11px 10px;
+    gap: 10px;
+    border-radius: 5px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    margin-bottom: 50px;
+}
+
+
+.register-form__btn-inner{
+    margin-top: 20px;
+    margin:auto;
+}
+
+
+.register-form__back-btn {
+    width: 200px;
+    height: 50px;
+    padding: 13px 10px 13px 10px;
+    gap: 10px;
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0px;
+    background: #F5C800;
+}
+
+.register-form__send-btn {
+    width: 200px;
+    height: 50px;
+    padding: 13px 10px 13px 10px;
+    gap: 10px;
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0px;
+    background: #E0DFDE;;
+}
+
+/* エラーメッセージ */
+.register-form__error-message {
+    color:#FD0707;
+    writing-mode: horizontal-tb;
+}
