@@ -25,10 +25,12 @@
         </form>
     </div>
 </div>
-
+    <div class=box>
     <div class="products__item">
         <div class="products__card">
+            <a href="detail.blade.php"></a>
             <div class="product__img">
+                <a href="detail.blade.php">
                 <img src="../../public/img/kiwi.png" alt="" />
             </div>
             <div class="card__content">
@@ -37,6 +39,7 @@
             </div>
         </div>
         <div class="products__card">
+            <a href="detail.blade.php"></a>
             <div class="product__img">
                 <img src="../../public/img/strawberry.png" alt="" />
             </div>
@@ -46,6 +49,7 @@
             </div>
         </div>
         <div class="products__card">
+            <a href="detail.blade.php"></a>
             <div class="product__img">
                 <img src="../../public/img/orange.png" alt="" />
             </div>
@@ -83,6 +87,6 @@
             </div>
         </div>
     </div>
-
+</div>
 </div>
 @endsection
