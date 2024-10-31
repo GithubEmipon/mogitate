@@ -9,7 +9,12 @@
         <div class="box1">
             <h2 class="products-form__heading content__heading">
             商品一覧</h2>
+                @section('link')
+                <form action="/products/register" method="post">
+                @csrf
                 <input class="products-form__plus-btn" type="submit" value="+商品を追加" name="plus">
+                </form>
+                @endsection
         </div>
         <div class="products-form__inner-box">
         <form class="search-form" action="/search" method="get">
@@ -31,17 +36,30 @@
             <a href="detail.blade.php"></a>
             <div class="product__img">
                 <a href="detail.blade.php">
-                <img src="../../public/img/kiwi.png" alt="" />
+                <img src="../../storage/app/public/kiwi.png" alt="" />
             </div>
             <div class="card__content">
                 <div class="card__cat">キウイ</div>
                     <h2 class="card__ttl">¥800</h2>
             </div>
+        <table class="products__table">
+            <tr class="products__row">
+            <th class="products__label">商品名</th>
+            <th class="products__label">値段</th>
+            <th class="products__label">季節</th>
+            <th class="products__label">画像</th>
+            <th class="products__label"></th>
+            </tr>
+            <td class="seasons__data">
+            </td>
+            <td class="product__data">
+            </td>
+        </tr>
         </div>
         <div class="products__card">
-            <a href="detail.blade.php"></a>
+            <a href="/detail"></a>
             <div class="product__img">
-                <img src="../../public/img/strawberry.png" alt="" />
+                <img src="../../storage/app/public/strawberry.png" alt="" />
             </div>
             <div class="card__content">
                 <div class="card__cat">ストロベリー</div>
@@ -51,16 +69,16 @@
         <div class="products__card">
             <a href="detail.blade.php"></a>
             <div class="product__img">
-                <img src="../../public/img/orange.png" alt="" />
+                <img src="../../storage/app/public/orange.png" alt="" />
             </div>
             <div class="card__content">
                 <div class="card__cat">オレンジ</div>
                 <h2 class="card__ttl">¥850</h2>
-            </div>
+            </div><br>
         </div>
         <div class="products__card">
             <div class="product__img">
-                <img src="../../public/img/watermelon.png" alt="" />
+                <img src="../../storage/app/public/watermelon.png" alt="" />
             </div>
                 <div class="card__content">
                 <div class="card__cat">スイカ</div>
@@ -69,7 +87,7 @@
         </div>
         <div class="products__card">
             <div class="product__img">
-                <img src="../../public/img/peach.png" alt="" />
+                <img src="../../storage/app/public/peach.png" alt="" />
             </div>
                 <div class="card__content">
                 <div class="card__cat">ピーチ</div>
@@ -78,7 +96,7 @@
         </div>
         <div class="products__card">
             <div class="product__img">
-                <img src="../../public/img/muscat.png" alt="" />
+                <img src="../../storage/app/public/muscat.png" alt="" />
             </div>
                 <div class="card__content">
                 <div class="card__cat">シャインマスカット</div>

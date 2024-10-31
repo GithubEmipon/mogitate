@@ -52,5 +52,14 @@ class ProductController extends Controller
         return redirect('/confirm');
     }
 
+
+    public function products()
+    {
+        $products = Contact::with('product')->paginate(6);
+        $products = Product::all();
+        $seasons = Season::all();
+        return view('products', compact('products', 'seasons'));
+    }
+
 }
 

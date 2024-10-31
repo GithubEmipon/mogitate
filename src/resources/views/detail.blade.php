@@ -8,7 +8,7 @@
 <div class="confirm-form">
     <h2 class="confirm-form__heading content__heading"></h2>
     <div class="confirm-form__inner">
-        <form action="/register" method="post">
+        <form action="/products" method="post">
         @csrf
         <table class="confirm-form__table">
             <tr class="confirm-form__row">
